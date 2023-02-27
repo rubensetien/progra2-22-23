@@ -15,16 +15,6 @@ public class BankAccount {
         this.amount = amount;
     }
 
-    public BankAccount() {
-        Scanner sc= new Scanner(System.in);
-        System.out.println("Write the name of the titular: ");
-titular=sc.toString();
-        sc = new Scanner(System.in);
-        System.out.println("enter the amount of money that you have in your account: ");
-        amount= sc.nextDouble();
-
-    }
-
     public String getTitular() {
         return titular;
     }
